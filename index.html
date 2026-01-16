@@ -425,7 +425,7 @@
         A selection of platforms where performance, reliability, and UX improvements are measured in real business metrics.
       </p>
 
-      <div class="grid md:grid-cols-2 gap-6">
+      <div class="grid md:grid-cols-1 gap-6 overflow-x-scroll md:overflow-x-visible pb-4">
         <!-- Project 1 -->
         <article
           class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/80 p-5 shadow-softLight dark:shadow-softDark transition-transform duration-300 hover:-translate-y-1 hover:border-sky-400/70">
@@ -532,46 +532,60 @@
         </article>
 
         <!-- Project 3 -->
-        <article
+       <article
           class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/80 p-5 shadow-softLight dark:shadow-softDark transition-transform duration-300 hover:-translate-y-1 hover:border-amber-400/70">
+
           <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
             <div class="absolute -inset-20 bg-gradient-to-tr from-amber-500/15 via-sky-500/10 to-emerald-500/15 blur-3xl"></div>
           </div>
 
           <div class="relative flex items-start justify-between gap-2 mb-2">
             <h3 class="font-semibold text-lg text-slate-900 dark:text-slate-50">
-              Multi‑Platform E‑commerce Integration System
+              SaaS Subscription & Commerce Integration Platform
             </h3>
             <span class="text-[10px] uppercase tracking-wide rounded-full bg-amber-100 text-amber-700 px-2 py-0.5 dark:bg-amber-500/20 dark:text-amber-200">
-              E‑commerce
+              SaaS
             </span>
           </div>
 
           <p class="relative text-sm text-slate-600 dark:text-slate-300 mb-3">
-            Integration layer connecting Salla, Zid, and Tap Payments to automate orders, inventory, subscriptions, and financial workflows across platforms.
+            Production-ready SaaS system for managing subscriptions, recurring payments, and
+            multi-platform e-commerce integrations with Salla and Zid.
           </p>
 
           <ul class="relative list-disc list-inside text-xs text-slate-600 dark:text-slate-300 mb-3 space-y-1">
-            <li>Queue‑based synchronization engine using Redis and robust webhooks.</li>
-            <li>Real‑time updates for orders, stock levels, and subscription status.</li>
-            <li>Operational dashboards for sales performance and error monitoring.</li>
+            <li>Multi-plan subscription system with feature-based access control.</li>
+            <li>Secure multi-gateway payments (Stripe, PayPal, Tap) with webhook-driven billing.</li>
+            <li>Event-driven sync for stores, products, orders, and customers via webhooks.</li>
+            <li>Redis caching with tag-based invalidation for high-performance analytics.</li>
           </ul>
 
           <p class="relative text-[11px] text-slate-500 dark:text-slate-400 mb-3">
-            Result: 40% fewer sync failures and stable handling of 10,000+ daily transactions with 99.9% uptime.
+            Result: Scalable architecture supporting real-time sync, reliable recurring billing,
+            and production-grade performance for growing merchant data.
           </p>
 
           <div class="relative flex flex-wrap gap-2 mb-3">
             <span class="badge">Laravel</span>
             <span class="badge">React</span>
+            <span class="badge">Inertia.js</span>
             <span class="badge">MySQL</span>
             <span class="badge">Redis</span>
-            <span class="badge">Queue Jobs</span>
+            <span class="badge">Queues & Jobs</span>
+            <span class="badge">Stripe</span>
+            <span class="badge">PayPal</span>
+            <span class="badge">Tap</span>
             <span class="badge">Salla API</span>
             <span class="badge">Zid API</span>
-            <span class="badge">Tap Payments</span>
+          </div>
+           <div class="relative flex flex-wrap gap-4 text-xs font-medium mt-1">
+            <a href="https://github.com/GeorgeAntwanHosny/ecommerce-integrations-hub" target="_blank"
+               class="inline-flex items-center gap-1 text-sky-700 dark:text-sky-300 hover:text-sky-500 dark:hover:text-sky-200 link-underline">
+              View Repository
+            </a>
           </div>
         </article>
+
 
         <!-- Project 4 -->
         <article
