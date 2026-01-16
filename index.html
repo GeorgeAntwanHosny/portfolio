@@ -419,218 +419,222 @@
     </section>
 
     <!-- Featured Projects -->
-    <section id="projects" class="fade-section">
+  <section id="projects" class="fade-section">
       <h2 class="text-2xl font-bold mb-2 text-slate-900 dark:text-white">Featured Projects</h2>
-      <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 mb-6">
-        A selection of platforms where performance, reliability, and UX improvements are measured in real business metrics.
+  <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 mb-6">
+    A selection of backend-heavy and full-stack systems I designed and built, focusing on scalability, integrations, and real business impact.
+  </p>
+
+  <div class="grid md:grid-cols-1 gap-6 overflow-x-scroll md:overflow-x-visible pb-4">
+
+    <!-- Project 1 -->
+    <article
+      class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/80 p-5 shadow-softLight dark:shadow-softDark transition-transform duration-300 hover:-translate-y-1 hover:border-sky-400/70">
+      
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+        <div class="absolute -inset-20 bg-gradient-to-tr from-sky-500/15 via-indigo-500/10 to-fuchsia-500/15 blur-3xl"></div>
+      </div>
+
+      <div class="relative flex items-start justify-between gap-2 mb-2">
+        <h3 class="font-semibold text-lg text-slate-900 dark:text-slate-50">
+          Team Collaboration & Project Management Platform
+        </h3>
+        <span class="text-[10px] uppercase tracking-wide text-center rounded-full bg-emerald-100 text-emerald-700 px-2 py-0.5 dark:bg-emerald-500/20 dark:text-emerald-200">
+          Real-time SaaS
+        </span>
+      </div>
+
+      <p class="relative text-sm text-slate-600 dark:text-slate-300 mb-3">
+        A real-time collaboration platform designed for agile teams, emphasizing scalable workflows, live updates, and data-driven project insights.
       </p>
 
-      <div class="grid md:grid-cols-1 gap-6 overflow-x-scroll md:overflow-x-visible pb-4">
-        <!-- Project 1 -->
-        <article
-          class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/80 p-5 shadow-softLight dark:shadow-softDark transition-transform duration-300 hover:-translate-y-1 hover:border-sky-400/70">
-          <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-            <div class="absolute -inset-20 bg-gradient-to-tr from-sky-500/15 via-indigo-500/10 to-fuchsia-500/15 blur-3xl"></div>
-          </div>
+      <ul class="relative list-disc list-inside text-xs text-slate-600 dark:text-slate-300 mb-3 space-y-1">
+        <li>Designed real-time project and task workflows using WebSockets for instant updates.</li>
+        <li>Built analytics dashboards with time-based filters to track delivery trends and team performance.</li>
+        <li>Implemented secure role-based access control for teams, projects, and permissions.</li>
+      </ul>
 
-          <div class="relative flex items-start justify-between gap-2 mb-2">
-            <h3 class="font-semibold text-lg text-slate-900 dark:text-slate-50">
-              Team Collaboration & Project Management Platform
-            </h3>
-            <span class="text-[10px] uppercase tracking-wide text-center p-2 rounded-full bg-emerald-100 text-emerald-700 px-2 py-0.5 dark:bg-emerald-500/20 dark:text-emerald-200">
-              Real‑time SaaS
-            </span>
-          </div>
+      <p class="relative text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+        Result: Reduced project delays by 30% through real-time visibility, optimized workflows, and scalable frontend-backend communication.
+      </p>
 
-          <p class="relative text-sm text-slate-600 dark:text-slate-300 mb-3">
-            Real‑time collaboration platform for agile teams with advanced project, task, and team management, analytics dashboards, and secure role‑based access control.
-          </p>
-
-          <ul class="relative list-disc list-inside text-xs text-slate-600 dark:text-slate-300 mb-3 space-y-1">
-            <li>Interactive analytics with time filters and Recharts‑based visualizations.</li>
-            <li>Project and task workflows with priorities, statuses, and progress tracking.</li>
-            <li>Team management, real‑time chat channels, and in‑app notifications.</li>
-          </ul>
-
-          <p class="relative text-[11px] text-slate-500 dark:text-slate-400 mb-3">
-            Result: 30% reduction in project delays, with a scalable Next.js architecture and WebSocket‑driven live updates.
-          </p>
-
-          <div class="relative flex flex-wrap gap-2 mb-3">
-            <span class="badge">Laravel</span>
-            <span class="badge">PHP</span>
-            <span class="badge">MySQL</span>
-            <span class="badge">Next.js 15</span>
-            <span class="badge">React 19</span>
-            <span class="badge">TypeScript</span>
-            <span class="badge">Tailwind CSS</span>
-            <span class="badge">Recharts</span>
-          </div>
-
-          <div class="relative flex flex-wrap gap-4 text-xs font-medium mt-1">
-            <a href="https://github.com/GeorgeAntwanHosny/team-collaboration-project-management-frontend" target="_blank"
-               class="inline-flex items-center gap-1 text-sky-700 dark:text-sky-300 hover:text-sky-500 dark:hover:text-sky-200 link-underline">
-              View Repository
-            </a>
-            <a href="https://drive.google.com/drive/folders/18Sds5j33PASzWo94ibVRS850B6VI67JZ?usp=sharing" target="_blank"
-               class="inline-flex items-center gap-1 text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100 link-underline">
-              Screenshots
-            </a>
-          </div>
-        </article>
-
-        <!-- Project 2 -->
-        <article
-          class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/80 p-5 shadow-softLight dark:shadow-softDark transition-transform duration-300 hover:-translate-y-1 hover:border-fuchsia-400/70">
-          <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-            <div class="absolute -inset-20 bg-gradient-to-tr from-fuchsia-500/15 via-sky-500/10 to-purple-500/15 blur-3xl"></div>
-          </div>
-
-          <div class="relative flex items-start justify-between gap-2 mb-2">
-            <h3 class="font-semibold text-lg text-slate-900 dark:text-slate-50">
-              AI‑Powered Content Management Platform
-            </h3>
-            <span class="text-[10px] uppercase tracking-wide rounded-full bg-fuchsia-100 text-fuchsia-700 px-2 py-0.5 dark:bg-fuchsia-500/20 dark:text-fuchsia-200">
-              AI CMS
-            </span>
-          </div>
-
-          <p class="relative text-sm text-slate-600 dark:text-slate-300 mb-3">
-            Intelligent CMS using Google Gemini AI for assisted content creation, combined with a structured multi‑role workflow and detailed engagement analytics.
-          </p>
-
-          <ul class="relative list-disc list-inside text-xs text-slate-600 dark:text-slate-300 mb-3 space-y-1">
-            <li>Gemini AI‑powered suggestions inside a custom Editor.js‑based editor.</li>
-            <li>Draft → review → publish workflow with role‑specific dashboards.</li>
-            <li>View tracking, comments, and performance metrics per role.</li>
-          </ul>
-
-          <p class="relative text-[11px] text-slate-500 dark:text-slate-400 mb-3">
-            Result: faster editorial cycles with strong access control, Livewire‑powered reactivity, and analytics‑driven decisions.
-          </p>
-
-          <div class="relative flex flex-wrap gap-2 mb-3">
-            <span class="badge">Laravel 12</span>
-            <span class="badge">Livewire</span>
-            <span class="badge">MySQL</span>
-            <span class="badge">Gemini AI</span>
-            <span class="badge">Tailwind CSS</span>
-            <span class="badge">Editor.js</span>
-            <span class="badge">Spatie Permissions</span>
-          </div>
-
-          <div class="relative flex flex-wrap gap-4 text-xs font-medium mt-1">
-            <a href="https://github.com/GeorgeAntwanHosny/AI-Powered-Content-Creation-Platform" target="_blank"
-               class="inline-flex items-center gap-1 text-sky-700 dark:text-sky-300 hover:text-sky-500 dark:hover:text-sky-200 link-underline">
-              View Repository
-            </a>
-            <a href="https://www.youtube.com/watch?v=trtDd4u5CZs&list=PLnOtO1dWpySX1tgYyUqQbpm1FbltYV_6y" target="_blank"
-               class="inline-flex items-center gap-1 text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100 link-underline">
-              Demo Videos
-            </a>
-          </div>
-        </article>
-
-        <!-- Project 3 -->
-       <article
-          class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/80 p-5 shadow-softLight dark:shadow-softDark transition-transform duration-300 hover:-translate-y-1 hover:border-amber-400/70">
-
-          <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-            <div class="absolute -inset-20 bg-gradient-to-tr from-amber-500/15 via-sky-500/10 to-emerald-500/15 blur-3xl"></div>
-          </div>
-
-          <div class="relative flex items-start justify-between gap-2 mb-2">
-            <h3 class="font-semibold text-lg text-slate-900 dark:text-slate-50">
-              SaaS Subscription & Commerce Integration Platform
-            </h3>
-            <span class="text-[10px] uppercase tracking-wide rounded-full bg-amber-100 text-amber-700 px-2 py-0.5 dark:bg-amber-500/20 dark:text-amber-200">
-              SaaS
-            </span>
-          </div>
-
-          <p class="relative text-sm text-slate-600 dark:text-slate-300 mb-3">
-            Production-ready SaaS system for managing subscriptions, recurring payments, and
-            multi-platform e-commerce integrations with Salla and Zid.
-          </p>
-
-          <ul class="relative list-disc list-inside text-xs text-slate-600 dark:text-slate-300 mb-3 space-y-1">
-            <li>Multi-plan subscription system with feature-based access control.</li>
-            <li>Secure multi-gateway payments (Stripe, PayPal, Tap) with webhook-driven billing.</li>
-            <li>Event-driven sync for stores, products, orders, and customers via webhooks.</li>
-            <li>Redis caching with tag-based invalidation for high-performance analytics.</li>
-          </ul>
-
-          <p class="relative text-[11px] text-slate-500 dark:text-slate-400 mb-3">
-            Result: Scalable architecture supporting real-time sync, reliable recurring billing,
-            and production-grade performance for growing merchant data.
-          </p>
-
-          <div class="relative flex flex-wrap gap-2 mb-3">
-            <span class="badge">Laravel</span>
-            <span class="badge">Inertia.js</span>
-            <span class="badge">MySQL</span>
-            <span class="badge">Redis</span>
-            <span class="badge">Queues & Jobs</span>
-            <span class="badge">Stripe</span>
-            <span class="badge">PayPal</span>
-            <span class="badge">Tap</span>
-            <span class="badge">Salla API</span>
-            <span class="badge">Zid API</span>
-          </div>
-           <div class="relative flex flex-wrap gap-4 text-xs font-medium mt-1">
-            <a href="https://github.com/GeorgeAntwanHosny/ecommerce-integrations-hub" target="_blank"
-               class="inline-flex items-center gap-1 text-sky-700 dark:text-sky-300 hover:text-sky-500 dark:hover:text-sky-200 link-underline">
-              View Repository
-            </a>
-             <a href="https://drive.google.com/file/d/1B2YmX3mi5T56O_xBs3z717tXTrdExDcn/view?usp=sharing" target="_blank"
-               class="inline-flex items-center gap-1 text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100 link-underline">
-              Demo Videos
-            </a>
-          </div>
-        </article>
-
-
-        <!-- Project 4 -->
-        <article
-          class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/80 p-5 shadow-softLight dark:shadow-softDark transition-transform duration-300 hover:-translate-y-1 hover:border-cyan-400/70">
-          <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-            <div class="absolute -inset-20 bg-gradient-to-tr from-cyan-500/15 via-indigo-500/10 to-slate-500/15 blur-3xl"></div>
-          </div>
-
-          <div class="relative flex items-start justify-between gap-2 mb-2">
-            <h3 class="font-semibold text-lg text-slate-900 dark:text-slate-50">
-              Interactive AR / 3D Web Experience
-            </h3>
-            <span class="text-[10px] uppercase tracking-wide rounded-full bg-cyan-100 text-cyan-700 px-2 py-0.5 dark:bg-cyan-500/20 dark:text-cyan-200">
-              3D / WebGL
-            </span>
-          </div>
-
-          <p class="relative text-sm text-slate-600 dark:text-slate-300 mb-3">
-            Immersive 3D visualization and AR experience for interactive product exploration on both desktop and mobile devices.
-          </p>
-
-          <ul class="relative list-disc list-inside text-xs text-slate-600 dark:text-slate-300 mb-3 space-y-1">
-            <li>High‑performance Three.js WebGL rendering with intuitive controls.</li>
-            <li>AR‑friendly flows and touch‑optimized interactions on mobile.</li>
-            <li>Progressive loading and performance tuning for smooth frame rates.</li>
-          </ul>
-
-          <p class="relative text-[11px] text-slate-500 dark:text-slate-400 mb-3">
-            Result: 30% increase in user engagement after introducing interactive 3D visualization.
-          </p>
-
-          <div class="relative flex flex-wrap gap-2 mb-3">
-            <span class="badge">React</span>
-            <span class="badge">TypeScript</span>
-            <span class="badge">Three.js</span>
-            <span class="badge">WebGL</span>
-            <span class="badge">Tailwind CSS</span>
-            <span class="badge">Laravel (API)</span>
-          </div>
-        </article>
+      <div class="relative flex flex-wrap gap-2 mb-3">
+        <span class="badge">Laravel</span>
+        <span class="badge">PHP</span>
+        <span class="badge">MySQL</span>
+        <span class="badge">Next.js 15</span>
+        <span class="badge">React 19</span>
+        <span class="badge">TypeScript</span>
+        <span class="badge">Tailwind CSS</span>
+        <span class="badge">Recharts</span>
       </div>
-    </section>
+
+      <div class="relative flex flex-wrap gap-4 text-xs font-medium mt-1">
+        <a href="https://github.com/GeorgeAntwanHosny/team-collaboration-project-management-frontend" target="_blank"
+           class="inline-flex items-center gap-1 text-sky-700 dark:text-sky-300 hover:text-sky-500 dark:hover:text-sky-200 link-underline">
+          View Repository
+        </a>
+        <a href="https://drive.google.com/drive/folders/18Sds5j33PASzWo94ibVRS850B6VI67JZ?usp=sharing" target="_blank"
+           class="inline-flex items-center gap-1 text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100 link-underline">
+          Screenshots
+        </a>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article
+      class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/80 p-5 shadow-softLight dark:shadow-softDark transition-transform duration-300 hover:-translate-y-1 hover:border-fuchsia-400/70">
+
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+        <div class="absolute -inset-20 bg-gradient-to-tr from-fuchsia-500/15 via-sky-500/10 to-purple-500/15 blur-3xl"></div>
+      </div>
+
+      <div class="relative flex items-start justify-between gap-2 mb-2">
+        <h3 class="font-semibold text-lg text-slate-900 dark:text-slate-50">
+          AI-Powered Content Management Platform
+        </h3>
+        <span class="text-[10px] uppercase tracking-wide rounded-full bg-fuchsia-100 text-fuchsia-700 px-2 py-0.5 dark:bg-fuchsia-500/20 dark:text-fuchsia-200">
+          AI CMS
+        </span>
+      </div>
+
+      <p class="relative text-sm text-slate-600 dark:text-slate-300 mb-3">
+        An AI-assisted content management system combining structured editorial workflows with intelligent content suggestions powered by Google Gemini.
+      </p>
+
+      <ul class="relative list-disc list-inside text-xs text-slate-600 dark:text-slate-300 mb-3 space-y-1">
+        <li>Integrated Google Gemini AI for contextual writing assistance inside a custom Editor.js editor.</li>
+        <li>Designed a multi-role editorial workflow (draft → review → publish) with granular permissions.</li>
+        <li>Implemented engagement analytics to support data-driven editorial decisions.</li>
+      </ul>
+
+      <p class="relative text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+        Result: Faster editorial cycles with controlled publishing flows, AI assistance, and Livewire-powered reactivity.
+      </p>
+
+      <div class="relative flex flex-wrap gap-2 mb-3">
+        <span class="badge">Laravel 12</span>
+        <span class="badge">Livewire</span>
+        <span class="badge">MySQL</span>
+        <span class="badge">Gemini AI</span>
+        <span class="badge">Tailwind CSS</span>
+        <span class="badge">Editor.js</span>
+        <span class="badge">Spatie Permissions</span>
+      </div>
+
+      <div class="relative flex flex-wrap gap-4 text-xs font-medium mt-1">
+        <a href="https://github.com/GeorgeAntwanHosny/AI-Powered-Content-Creation-Platform" target="_blank"
+           class="inline-flex items-center gap-1 text-sky-700 dark:text-sky-300 hover:text-sky-500 dark:hover:text-sky-200 link-underline">
+          View Repository
+        </a>
+        <a href="https://www.youtube.com/watch?v=trtDd4u5CZs&list=PLnOtO1dWpySX1tgYyUqQbpm1FbltYV_6y" target="_blank"
+           class="inline-flex items-center gap-1 text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100 link-underline">
+          Demo Videos
+        </a>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article
+      class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/80 p-5 shadow-softLight dark:shadow-softDark transition-transform duration-300 hover:-translate-y-1 hover:border-amber-400/70">
+
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+        <div class="absolute -inset-20 bg-gradient-to-tr from-amber-500/15 via-sky-500/10 to-emerald-500/15 blur-3xl"></div>
+      </div>
+
+      <div class="relative flex items-start justify-between gap-2 mb-2">
+        <h3 class="font-semibold text-lg text-slate-900 dark:text-slate-50">
+          SaaS Subscription & Commerce Integration Platform
+        </h3>
+        <span class="text-[10px] uppercase tracking-wide rounded-full bg-amber-100 text-amber-700 px-2 py-0.5 dark:bg-amber-500/20 dark:text-amber-200">
+          SaaS
+        </span>
+      </div>
+
+      <p class="relative text-sm text-slate-600 dark:text-slate-300 mb-3">
+        A production-grade SaaS platform for managing subscriptions, recurring billing, and complex e-commerce integrations across multiple external platforms.
+      </p>
+
+      <ul class="relative list-disc list-inside text-xs text-slate-600 dark:text-slate-300 mb-3 space-y-1">
+        <li>Designed a feature-based subscription system with flexible plan rules and access control.</li>
+        <li>Implemented multi-gateway payments (Stripe, PayPal, Tap) using webhook-driven state synchronization.</li>
+        <li>Built event-driven integrations with Salla and Zid for syncing stores, products, orders, and customers.</li>
+        <li>Optimized performance using Redis caching, queued jobs, and background processing.</li>
+      </ul>
+
+      <p class="relative text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+        Result: A scalable, fault-tolerant architecture supporting recurring billing, real-time sync, and high-volume merchant data.
+      </p>
+
+      <div class="relative flex flex-wrap gap-2 mb-3">
+        <span class="badge">Laravel</span>
+        <span class="badge">Inertia.js</span>
+        <span class="badge">MySQL</span>
+        <span class="badge">Redis</span>
+        <span class="badge">Queues & Jobs</span>
+        <span class="badge">Stripe</span>
+        <span class="badge">PayPal</span>
+        <span class="badge">Tap</span>
+        <span class="badge">Salla API</span>
+        <span class="badge">Zid API</span>
+      </div>
+
+      <div class="relative flex flex-wrap gap-4 text-xs font-medium mt-1">
+        <a href="https://github.com/GeorgeAntwanHosny/ecommerce-integrations-hub" target="_blank"
+           class="inline-flex items-center gap-1 text-sky-700 dark:text-sky-300 hover:text-sky-500 dark:hover:text-sky-200 link-underline">
+          View Repository
+        </a>
+        <a href="https://drive.google.com/file/d/1B2YmX3mi5T56O_xBs3z717tXTrdExDcn/view?usp=sharing" target="_blank"
+           class="inline-flex items-center gap-1 text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100 link-underline">
+          Demo Videos
+        </a>
+      </div>
+    </article>
+
+    <!-- Project 4 -->
+    <article
+      class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/80 p-5 shadow-softLight dark:shadow-softDark transition-transform duration-300 hover:-translate-y-1 hover:border-cyan-400/70">
+
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+        <div class="absolute -inset-20 bg-gradient-to-tr from-cyan-500/15 via-indigo-500/10 to-slate-500/15 blur-3xl"></div>
+      </div>
+
+      <div class="relative flex items-start justify-between gap-2 mb-2">
+        <h3 class="font-semibold text-lg text-slate-900 dark:text-slate-50">
+          Interactive AR / 3D Web Experience
+        </h3>
+        <span class="text-[10px] uppercase tracking-wide rounded-full bg-cyan-100 text-cyan-700 px-2 py-0.5 dark:bg-cyan-500/20 dark:text-cyan-200">
+          3D / WebGL
+        </span>
+      </div>
+
+      <p class="relative text-sm text-slate-600 dark:text-slate-300 mb-3">
+        An immersive 3D and AR-ready web experience focused on performance-optimized rendering and interactive product exploration.
+      </p>
+
+      <ul class="relative list-disc list-inside text-xs text-slate-600 dark:text-slate-300 mb-3 space-y-1">
+        <li>Built optimized Three.js scenes with high-performance WebGL rendering.</li>
+        <li>Designed AR-friendly interaction flows with touch-optimized controls for mobile.</li>
+        <li>Applied progressive loading strategies to maintain smooth frame rates.</li>
+      </ul>
+
+      <p class="relative text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+        Result: Increased user engagement by 30% through performant and immersive 3D visualization.
+      </p>
+
+      <div class="relative flex flex-wrap gap-2 mb-3">
+        <span class="badge">React</span>
+        <span class="badge">TypeScript</span>
+        <span class="badge">Three.js</span>
+        <span class="badge">WebGL</span>
+        <span class="badge">Tailwind CSS</span>
+        <span class="badge">Laravel (API)</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
 
     <!-- Experience -->
     <section id="experience" class="fade-section">
